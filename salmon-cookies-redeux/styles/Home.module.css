@@ -1,20 +1,27 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
+  padding: 4rem 1rem;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.navWrapper{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logoWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer {
